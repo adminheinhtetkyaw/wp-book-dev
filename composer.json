@@ -1,0 +1,30 @@
+{
+	"name" : "vendor/wp-book",
+	"description" : "PDF Download plugin.",
+	"type" : "wordpress-plugin",
+	"keywords" : [ "wordpress" ],
+	"license" : "GPL-2.0+",
+	"authors" : [
+		{
+			"name" : "Rajan",
+			"email" : "rajanit2000@gmail.com",
+			"role" : "Lead Developer"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"WPBook\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=5.3.0",
+		"mpdf/mpdf": "~7.0"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "<4.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.4",
+		"wimg/php-compatibility": "^8.0",
+		"wp-coding-standards/wpcs": "<=1.0"
+	},
+	"homepage" : "https://wpsmartcare.com/wp-book"
+}
